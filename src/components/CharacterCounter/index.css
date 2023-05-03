@@ -1,0 +1,124 @@
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.character-counter-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 90%;
+  margin: auto;
+}
+
+@media screen and (min-width: 768px) {
+  .character-counter-card {
+    width: 70%;
+  }
+}
+
+.input-card {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  background-color: #0f172a;
+  padding: 20px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  min-height: 350px;
+}
+
+.input-card-title {
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: 500;
+  color: #ffc533;
+  align-self: center;
+}
+
+.input-and-button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.user-input {
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 400;
+  color: #475569;
+  height: 35px;
+  padding: 5px;
+  outline: none;
+  border: none;
+  text-indent: 6px;
+  flex-grow: 1;
+  margin-right: 20px;
+  border-radius: 5px;
+}
+
+.custom-button {
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 500;
+  color: #334155;
+  height: 35px;
+  padding: 8px;
+  padding-inline: 20px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  background-color: #ffc533;
+  border-radius: 5px;
+  flex-shrink: 0;
+}
+
+.output-card {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffc533;
+  padding: 20px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  min-height: 350px;
+}
+
+.output-title-container {
+  width: 100%;
+  align-self: center;
+  background-color: #ffbf1f;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.output-title {
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: 500;
+  color: #0f172a;
+}
+
+.no-input-image {
+  width: 100%;
+}
+
+.output-list-container {
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+  padding-left: 20px;
+  list-style-type: none;
+}
+
+.output-item {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  margin: 0px;
+}
